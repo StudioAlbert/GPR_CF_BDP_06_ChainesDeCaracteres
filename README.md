@@ -6,15 +6,16 @@ suivantes restent à écrire.
 
 ## Compiler et lancer
 
-```bash
+```powershell
 cmake -S . -B build
 cmake --build build
-./build/Exercice_3           # Windows : build\Debug\Exercice_3.exe
 ```
+
+Puis `build/Exercice_3/Exercice_3.exe`.
 
 ## Où en est le code
 
-`Exercice_3/main.cpp` contient la boucle de saisie et `checkEmpty`, qui couvre la première
+`Exercice_3/main.cc` contient la boucle de saisie et `checkEmpty`, qui couvre la première
 règle. Le message qu'elle affiche (`xxxx = input is empty`) est celui du direct, pas celui
 de l'énoncé : à remplacer.
 

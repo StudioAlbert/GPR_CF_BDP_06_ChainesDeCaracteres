@@ -1,6 +1,8 @@
-cmake_minimum_required(VERSION 4.2)
-project("GPR-CF-BDP-06 - Chaînes de caractères")
+cmake_minimum_required(VERSION 3.16)
+project(GPR_CF_BDP_06_ChainesDeCaracteres CXX)
 
 set(CMAKE_CXX_STANDARD 23)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
 
-add_executable(Exercice_3 "Exercice_3/main.cpp")
+add_subdirectory(Exercice_3)
